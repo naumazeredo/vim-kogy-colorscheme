@@ -241,7 +241,7 @@ if &t_Co > 255
        hi Number          ctermfg=141
        hi String          ctermfg=222
        hi Conditional     ctermfg=197               cterm=bold
-       hi Constant        ctermfg=141               cterm=bold
+       hi Constant        ctermfg=141               cterm=none
 
        hi DiffDelete      ctermfg=125 ctermbg=233
 
