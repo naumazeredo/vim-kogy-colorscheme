@@ -1,11 +1,10 @@
 " Vim color file
 "
-" Author: Tomas Restrepo <tomas@winterdom.com>
-" https://github.com/tomasr/molokai
+" Author: Naum Azeredo <naumazeredo@gmail.com>
+" https://github.com/kogyblack/vim-kogy-colorscheme
 "
-" Note: Based on the Monokai theme for TextMate
-" by Wimer Hazenberg and its darker variant
-" by Hamish Stuart Macpherson
+" Note: Based on Molokai theme
+" by Tomas Restrepo at https://github.com/tomasr/molokai
 "
 
 hi clear
@@ -18,7 +17,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="molokai"
+let g:colors_name="kogyblack"
 
 if exists("g:molokai_original")
     let s:molokai_original = g:molokai_original
@@ -97,7 +96,7 @@ hi Title           guifg=#ef5939
 hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
+hi Type            guifg=#66D9FF               gui=bold
 hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
